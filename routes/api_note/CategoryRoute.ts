@@ -1,7 +1,7 @@
 import express, { Express, Request, Response } from "express";
 import asyncHandler from 'express-async-handler';
-import CategoryModel from "../models/CategoryModel";
-import WorkModel from "../models/WorkModel";
+import CategoryModel from "../../models/data_note/CategoryModel";
+import WorkModel from "../../models/data_note/WorkModel";
 const CategoryRoute = express.Router();
 
 //get all

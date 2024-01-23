@@ -1,8 +1,8 @@
 import express, { Express, Request, Response } from "express";
 import asyncHandler from 'express-async-handler';
-import WorkModel from "../models/WorkModel";
-import { typeWork, typeTask } from "../types";
-import CategoryModel from "../models/CategoryModel";
+import WorkModel from "../../models/data_note/WorkModel";
+import { typeWork, typeTask } from "../../types";
+import CategoryModel from "../../models/data_note/CategoryModel";
 const WorkRoute = express.Router();
 
 //Get all
